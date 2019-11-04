@@ -1,0 +1,31 @@
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                     k..riment/NSGAII\[0m[23m[24m[J[01;32m➜  [36mNSGAII[00m [01;34mgit:([31mNSGAII[34m) [33m✗[00m [K[?1h=[?2004h../../../PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe -n 31[?1l>[?2004l
+k./../../PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe\load configration file ...
+compute hypervolumes ...
+6th run is finished.
+9th run is finished.
+8th run is finished.
+10th run is finished.
+2th run is finished.
+1th run is finished.
+3th run is finished.
+16th run is finished.
+19th run is finished.
+5th run is finished.
+20th run is finished.
+11th run is finished.
+4th run is finished.
+18th run is finished.
+15th run is finished.
+12th run is finished.
+7th run is finished.
+17th run is finished.
+0th run is finished.
+13th run is finished.
+14th run is finished.
+compute hypervolume of population in each generations (only median run and best run) ...
+15th run is finished.
+0th run is finished.
+median hypervolume value: 0.593532 in 0th run
+best hypervolume value: 0.668537 in 15th run
+post-processing is completed! done ...
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                     k..riment/NSGAII\[0m[23m[24m[J[01;32m➜  [36mNSGAII[00m [01;34mgit:([31mNSGAII[34m) [33m✗[00m [K[?1h=[?2004h[0m[23m[24m[J[01;32m➜  [36mNSGAII[00m [01;34mgit:([31mNSGAII[34m) [33m✗[00m [?2004l
