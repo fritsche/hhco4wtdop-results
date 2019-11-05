@@ -2,6 +2,9 @@
 *_log.txt
 *.log*
 screenlog.*
+*_pop_vars_eval.txt
+*_pop_objs_eval.txt
+*_pop_cons_eval.txt
 
 # Created by https://www.gitignore.io/api/code,linux,macos,windows
 # Edit at https://www.gitignore.io/?templates=code,linux,macos,windows
