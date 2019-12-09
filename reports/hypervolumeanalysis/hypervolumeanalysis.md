@@ -7,6 +7,15 @@ import matplotlib.pyplot as plt
 # load data
 df = pd.read_csv('WindTurbineDesignHypervolumeMedianRun.csv')
 dfmax = df.iloc[[-1]]
+dfmaxt = dfmax.transpose()
+dfmaxt.columns = ['median']
+dfmaxt = dfmaxt.drop('FE', axis=0)
+
+dfbest = pd.read_csv('WindTurbineDesignHypervolumeBestRun.csv')
+dfmaxbest = dfbest.iloc[[-1]]
+dfmaxbest = dfmaxbest.transpose()
+dfmaxbest.columns = ['max']
+dfmaxbest = dfmaxbest.drop('FE', axis=0)
 
 
 def plot_hypervolume(algs, offsets):
@@ -61,6 +70,139 @@ def plot_hypervolume(algs, offsets):
 
 
 ```python
+dfmaxbest.index.name = 'alg'
+dfmaxbest.reset_index(inplace=True)
+
+dfmaxt.index.name = 'alg'
+dfmaxt.reset_index(inplace=True)
+```
+
+
+```python
+dfoverall = dfmaxbest.merge(dfmaxt, on = ['alg'], how='inner')
+
+dfoverall.sort_values(by=['median'], inplace=True)
+
+dfoverall = dfoverall.set_index("alg")
+
+dfoverall
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>max</th>
+      <th>median</th>
+    </tr>
+    <tr>
+      <th>alg</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CMOEADD</td>
+      <td>0.314566</td>
+      <td>0.119221</td>
+    </tr>
+    <tr>
+      <td>HypE</td>
+      <td>0.470731</td>
+      <td>0.371032</td>
+    </tr>
+    <tr>
+      <td>NSGAII</td>
+      <td>0.451949</td>
+      <td>0.451949</td>
+    </tr>
+    <tr>
+      <td>CMOEAD</td>
+      <td>0.562005</td>
+      <td>0.494201</td>
+    </tr>
+    <tr>
+      <td>ThetaDEA</td>
+      <td>0.668918</td>
+      <td>0.556663</td>
+    </tr>
+    <tr>
+      <td>CMOMBI2</td>
+      <td>0.634919</td>
+      <td>0.581138</td>
+    </tr>
+    <tr>
+      <td>SPEA2</td>
+      <td>0.664635</td>
+      <td>0.583742</td>
+    </tr>
+    <tr>
+      <td>CHHCORandom</td>
+      <td>0.661291</td>
+      <td>0.615500</td>
+    </tr>
+    <tr>
+      <td>SPEA2SDE</td>
+      <td>0.663690</td>
+      <td>0.619736</td>
+    </tr>
+    <tr>
+      <td>CHHCO</td>
+      <td>0.689392</td>
+      <td>0.650861</td>
+    </tr>
+    <tr>
+      <td>NSGAIII</td>
+      <td>0.693573</td>
+      <td>0.654014</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# Hypervolume
+ax = dfoverall.plot.bar(y='max', color='tab:orange')
+ax = dfoverall.plot.bar(y='median', color='tab:blue', ax=ax)
+ax.set_xlabel("")
+ax.set_ylabel("Hypervolume")
+
+```
+
+
+
+
+    Text(0,0.5,'Hypervolume')
+
+
+
+
+![png](output_3_1.png)
+
+
+
+```python
 # MOEAs
 
 offset={
@@ -80,7 +222,7 @@ plot_hypervolume(["NSGAII","HypE","CMOEADD","CMOEAD","NSGAIII","CMOMBI2","SPEA2"
 ```
 
 
-![png](output_1_0.png)
+![png](output_4_0.png)
 
 
 
@@ -96,7 +238,7 @@ plot_hypervolume(["CHHCO", "CHHCORandom"], offset)
 ```
 
 
-![png](output_2_0.png)
+![png](output_5_0.png)
 
 
 
@@ -122,7 +264,7 @@ plot_hypervolume(["CHHCO", "NSGAIII", "SPEA2SDE", "SPEA2", "CHHCORandom"], offse
 ```
 
 
-![png](output_3_0.png)
+![png](output_6_0.png)
 
 
 
@@ -148,5 +290,5 @@ plot_hypervolume(algs, offset)
 ```
 
 
-![png](output_4_0.png)
+![png](output_7_0.png)
 
