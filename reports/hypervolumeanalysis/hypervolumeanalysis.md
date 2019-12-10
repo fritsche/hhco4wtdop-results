@@ -4,6 +4,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import matplotlib
+matplotlib.use
+import matplotlib.pyplot as plt
+plt.style.use('seaborn-muted')
+
+
 # load data
 df = pd.read_csv('WindTurbineDesignHypervolumeMedianRun.csv')
 dfmax = df.iloc[[-1]]
