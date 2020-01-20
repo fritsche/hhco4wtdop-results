@@ -1,0 +1,24 @@
+Loading required package: PMCMRplus
+
+	Kruskal-Wallis rank sum test
+
+data:  ARRAY and categs
+Kruskal-Wallis chi-squared = 120.11, df = 8, p-value < 2.2e-16
+
+
+	Pairwise comparisons using Tukey-Kramer-Nemenyi all-pairs test with Tukey-Dist approximation
+
+data: ARRAY and categs
+
+         CHHCO   HypE    MOEAD   MOMBI2  NSGAII NSGAIII SPEA2  SPEA2SDE
+HypE     2.8e-13 -       -       -       -      -       -      -       
+MOEAD    1.6e-05 0.1149  -       -       -      -       -      -       
+MOMBI2   3.3e-05 0.0778  1.0000  -       -      -       -      -       
+NSGAII   0.0546  6.2e-05 0.5593  0.6617  -      -       -      -       
+NSGAIII  0.9950  7.4e-14 1.3e-07 3.0e-07 0.0028 -       -      -       
+SPEA2    0.4958  2.6e-07 0.0708  0.1053  0.9856 0.0828  -      -       
+SPEA2SDE 0.0443  8.7e-05 0.6090  0.7087  1.0000 0.0021  0.9779 -       
+ThetaDEA 0.9861  2.6e-10 0.0017  0.0030  0.4918 0.6443  0.9786 0.4432  
+
+P value adjustment method: single-step
+alternative hypothesis: two.sided
