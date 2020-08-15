@@ -1,5 +1,5 @@
 
-*/.ipynb_checkpoints/*
+.ipynb_checkpoints/
 *_log.txt
 *.log*
 log.txt
