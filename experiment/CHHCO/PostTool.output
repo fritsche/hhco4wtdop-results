@@ -1,0 +1,30 @@
+$ ~/hhco4tdop/root/PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe 
+load configration file ...
+compute hypervolumes ...
+0th run is finished.
+1th run is finished.
+2th run is finished.
+3th run is finished.
+4th run is finished.
+5th run is finished.
+6th run is finished.
+7th run is finished.
+8th run is finished.
+9th run is finished.
+10th run is finished.
+11th run is finished.
+12th run is finished.
+13th run is finished.
+14th run is finished.
+15th run is finished.
+16th run is finished.
+17th run is finished.
+18th run is finished.
+19th run is finished.
+20th run is finished.
+compute hypervolume of population in each generations (only median run and best run) ...
+0th run is finished.
+12th run is finished.
+median hypervolume value: 4.92959 in 0th run
+best hypervolume value: 5.1996 in 12th run
+post-processing is completed! done ...

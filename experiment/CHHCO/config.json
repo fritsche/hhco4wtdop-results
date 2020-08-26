@@ -1,7 +1,7 @@
 {
     "group name" : "CHHCO",
     "number of solutions" : 1,
-    "number of generations" : 9870,
+    "number of generations" : 15120,
     "number of runs" : 21,
 	"digits of generation" : 5,
 	"digits of run" : 3,
