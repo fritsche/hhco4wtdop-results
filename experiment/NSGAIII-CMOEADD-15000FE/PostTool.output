@@ -1,0 +1,164 @@
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k~/hhco4wtdop\[0m[27m[24m[J[01;32m➜  [36mhhco4wtdop[00m [01;34mgit:([31mconfig4journal[34m) [33m✗[00m [K[?1h=[?2004h../scri    . ./root[1m/[0m[0m b./rootba./roots./rooth./root ./root[6C/scripts[1m/[0m[0m/run.sh[1m [0m[0m [?1l>[?2004l
+kbash\Expected: <problem[WindTurbineDesign|Water|Test]> <replace[true|false]> and list of algorithms <Alg1 Alg2 ...>
+\t Algorithms: (NSGAII HypE NSGAIII SPEA2 SPEA2SDE ThetaDEA)
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k~/hhco4wtdop\[0m[27m[24m[J[01;31m➜  [36mhhco4wtdop[00m [01;34mgit:([31mconfig4journal[34m) [33m✗[00m [K[?1h=[?2004hbash ./root/scripts/run.sh WindTurbineDesign false NSGAIII [?1l>[?2004l
+kbash\[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Using the MultiThreadedBuilder implementation with a thread count of 12
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mbr.ufpr.inf.cbio:HHCO4WTDOP[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding HHCO4WTDOP 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mHHCO4WTDOP[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/gian/hhco4wtdop/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mHHCO4WTDOP[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mHHCO4WTDOP[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/gian/hhco4wtdop/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mHHCO4WTDOP[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mHHCO4WTDOP[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mHHCO4WTDOP[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:3.1.0:single[m [1m(make-assembly)[m @ [36mHHCO4WTDOP[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/fritsche/hhco/2a8145619c/hhco-2a8145619c.pom
+[[1;34mINFO[m] Building jar: /home/gian/hhco4wtdop/target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.887 s (Wall Clock)
+[[1;34mINFO[m] Finished at: 2020-08-29T14:19:14-02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 458291434 -id 0 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.458291434.log
+warning: commands will be executed using /bin/sh
+job 84692 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 843424713 -id 1 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.843424713.log
+warning: commands will be executed using /bin/sh
+job 84693 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 70431871 -id 2 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.70431871.log
+warning: commands will be executed using /bin/sh
+job 84694 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 231906535 -id 3 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.231906535.log
+warning: commands will be executed using /bin/sh
+job 84695 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 61633375 -id 4 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.61633375.log
+warning: commands will be executed using /bin/sh
+job 84696 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 819781195 -id 5 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.819781195.log
+warning: commands will be executed using /bin/sh
+job 84697 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 730122815 -id 6 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.730122815.log
+warning: commands will be executed using /bin/sh
+job 84698 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 203627428 -id 7 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.203627428.log
+warning: commands will be executed using /bin/sh
+job 84699 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 126768558 -id 8 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.126768558.log
+warning: commands will be executed using /bin/sh
+job 84700 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 111752778 -id 9 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.111752778.log
+warning: commands will be executed using /bin/sh
+job 84701 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 100565800 -id 10 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.100565800.log
+warning: commands will be executed using /bin/sh
+job 84702 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 51281266 -id 11 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.51281266.log
+warning: commands will be executed using /bin/sh
+job 84703 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 140915384 -id 12 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.140915384.log
+warning: commands will be executed using /bin/sh
+job 84704 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 613914278 -id 13 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.613914278.log
+warning: commands will be executed using /bin/sh
+job 84705 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 411721688 -id 14 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.411721688.log
+warning: commands will be executed using /bin/sh
+job 84706 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 220434845 -id 15 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.220434845.log
+warning: commands will be executed using /bin/sh
+job 84707 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 400250259 -id 16 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.400250259.log
+warning: commands will be executed using /bin/sh
+job 84708 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 32902673 -id 17 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.32902673.log
+warning: commands will be executed using /bin/sh
+job 84709 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 608526388 -id 18 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.608526388.log
+warning: commands will be executed using /bin/sh
+job 84710 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 181215003 -id 19 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.181215003.log
+warning: commands will be executed using /bin/sh
+job 84711 at Sat Aug 29 14:19:00 2020
+java -Duser.language=en -cp target/HHCO4WTDOP-1.0-SNAPSHOT-jar-with-dependencies.jar -Xmx1g br.ufpr.inf.cbio.hhco4wtdop.runner.Main -s 859926744 -id 20 -P /home/gian/hhco4wtdop/root/experiment/loki/ -a NSGAIII -p WindTurbineDesign 2> NSGAIII.859926744.log
+warning: commands will be executed using /bin/sh
+job 84712 at Sat Aug 29 14:19:00 2020
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k~/hhco4wtdop\[0m[27m[24m[J[01;32m➜  [36mhhco4wtdop[00m [01;34mgit:([31mconfig4journal[34m) [33m✗[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mhhco4wtdop[00m [01;34mgit:([31mconfig4journal[34m) [33m✗[00m ~~/hhco4wtdop/root/PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe -n 10[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k~/hhco4wtdop\[0m[27m[24m[J[01;31m➜  [36mhhco4wtdop[00m [01;34mgit:([31mconfig4journal[34m) [33m✗[00m [K[?1h=[?2004hccd NSGA    r  root[1m/[0m[0m/
+[01;34mdummies[0m/                  [01;34mfusedwind[0m/                [01;34mopenmdao-0.10.3.2[0m/        [01;34msample[0m/                   [01;34mwisdem[0m/                                           
+[J[01;34mexperiment[0m/               [J[01;34mjpnsecCompetition2019[0m/    [J[01;34mPostToolForECSympoCompe[0m/  [J[01;34mscripts[0m/                  [J                                                [A[A[0m[27m[24m[37Ccd root/[Kexperiment[1m/[0m[0m/NS
+[J[A[58CGAIII[1m/[0m[0m [?1l>[?2004l
+[Jkcd\[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;32m➜  [36mNSGAIII[00m [K[?1h=[?2004hlls[?1l>[?2004l
+kls\[0m[01;34minterface[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;32m➜  [36mNSGAIII[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+kcd\[1m[7m%[27m[1m[0m                                                                                                                                                                              k..ot/experiment\[0m[27m[24m[J[01;32m➜  [36mexperiment[00m [K[?1h=[?2004hlls[?1l>[?2004l
+kls\[0m[01;34mCHHCO[0m  [01;34mCHHLA[0m  [01;34mCMOEAD[0m  [01;34mCMOEADD[0m  [01;34mECSymposium2019CompetitionMethodology[0m  [01;34mHHCO[0m  [01;34mHypE[0m  LICENSE  [01;34mloki[0m  [01;34mNSGAII[0m  [01;34mNSGAIII[0m  [01;34mpc5[0m  README.md
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..ot/experiment\[0m[27m[24m[J[01;32m➜  [36mexperiment[00m [K[?1h=[?2004hccd NSGAIII[?1l>[?2004l
+kcd\[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;32m➜  [36mNSGAIII[00m [K[?1h=[?2004hccdc cp ../CHHCO[1m/[0m[0m/con        HHCO[1m/[0m[0m [6C        c  ccd CHHCO[?1l>[?2004l
+kcd\cd: no such file or directory: CHHCO
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;31m➜  [36mNSGAIII[00m [K[?1h=[?2004hccd c  ccp ; ../CHHCO[1m/[0m[0m/con            c  cd CHHCO  L    ../CHL HLA[1m/[0m[0m         c  ccd ..[?1l>[?2004l
+kcd\[1m[7m%[27m[1m[0m                                                                                                                                                                              k..ot/experiment\[0m[27m[24m[J[01;32m➜  [36mexperiment[00m [K[?1h=[?2004hlls[?1l>[?2004l
+kls\[0m[01;34mCHHCO[0m  [01;34mCHHLA[0m  [01;34mCMOEAD[0m  [01;34mCMOEADD[0m  [01;34mECSymposium2019CompetitionMethodology[0m  [01;34mHHCO[0m  [01;34mHypE[0m  LICENSE  [01;34mloki[0m  [01;34mNSGAII[0m  [01;34mNSGAIII[0m  [01;34mpc5[0m  README.md
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..ot/experiment\[0m[27m[24m[J[01;32m➜  [36mexperiment[00m [K[?1h=[?2004hccd CHHLA[?1l>[?2004l
+kcd\[1m[7m%[27m[1m[0m                                                                                                                                                                              k..eriment/CHHLA\[0m[27m[24m[J[01;32m➜  [36mCHHLA[00m [K[?1h=[?2004hlls[?1l>[?2004l
+kls\best_hv_value.txt  config.json  m_bst_CHHLA.csv  mean_hv_value.txt  m_his_CHHLA.csv  m_prt_CHHLA.csv  screenlog.0
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..eriment/CHHLA\[0m[27m[24m[J[01;32m➜  [36mCHHLA[00m [K[?1h=[?2004hccp config.json[1m [0m[0m ../NSGS AIII[1m/[0m[0m/.[?1l>[?2004l
+kcp\[1m[7m%[27m[1m[0m                                                                                                                                                                              k..eriment/CHHLA\[0m[27m[24m[J[01;32m➜  [36mCHHLA[00m [K[?1h=[?2004hccd ../NSGAIIII[?1l>[?2004l
+kcd\cd: no such file or directory: ../NSGAIIII
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..eriment/CHHLA\[0m[27m[24m[J[01;31m➜  [36mCHHLA[00m [K[?1h=[?2004hcd ../NSGAIIII [?1l>[?2004l
+kcd\[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;32m➜  [36mNSGAIII[00m [K[?1h=[?2004hlls[?1l>[?2004l
+kls\config.json  [0m[01;34minterface[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;32m➜  [36mNSGAIII[00m [K[?1h=[?2004h~~/hhco4wtdop/root/PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe -n 10[?1l>[?2004l
+k~/hhco4wtdop/root/PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe\load configration file ...
+compute hypervolumes ...
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;31m➜  [36mNSGAIII[00m [K[?1h=[?2004hccdc  nnano config.json[1m [0m[0m [?1l>[?2004l
+knano\[?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[43;80H(B[0;7m[ Reading File ](B[m[43;65H(B[0;7m[ Read 24 lines (Converted from DOS format) ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                    config.json                                                                               [1;173H(B[m[44d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[44;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous[45d(B[0;7m^X(B[m Exit[45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[45;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[43d[3d(B[0;1m[31m{[4;5H[34m"group name" [31m:[35m "CHHLA"[31m,[5;5H[34m"number of solutions" [31m:(B[0m[32m 1(B[0;1m[31m,[6;5H[34m"number of generations" [31m:(B[0m[32m 15120(B[0;1m[31m,[7;5H[34m"number of runs" [31m:(B[0m[32m 21(B[0;1m[31m,[8;9H[34m"digits of generation" [31m:(B[0m[32m 5(B[0;1m[31m,[9;9H[34m"digits of run" [31m:(B[0m[32m 3(B[0;1m[31m,[10;9H[34m"number of objectives" [31m:(B[0m[32m5(B[0;1m[31m,[11;9H[34m"number of variables" [31m:(B[0m[32m 32(B[0;1m[31m,[12;9H[34m"number of constraints" [31m:(B[0m[32m 22(B[0;1m[31m,[13;9H[34m"filepath" [31m:[35m "./interface/"[31m,[14;9H[34m"run id pre" [31m:[35m "work_"[31m,[15;9H[34m"run id post" [31m:[35m "th/"[31m,[16;5H[34m"variables file pre" [31m:[35m "gen"[31m,[17;5H[34m"objectives file pre" [31m:[35m "gen"[31m,[18;5H[34m"constraints file pre" [31m:[35m "gen"[31m,[19;5H[34m"variables file post" [31m:[35m "_pop_vars_eval.txt"[31m,[20;5H[34m"objectives file post" [31m:[35m "_pop_objs_eval.txt"[31m,[21;5H[34m"constraints file post" [31m:[35m "_pop_cons_eval.txt"[31m,[22;5H[34m"header of output file" [31m:[35m "#Objective1[31m,(B[0m[36m #Objective2, #Objective3, #Objective4, #Objective5, #Variable1, #Variable2, #Variable3, #Variable4, #Variable5, #Variable6, #Vari[39m(B[m$[23;5H(B[0;1m[34m"reference point" [31m:[39m(B[m (B[0;1m[34m[[39m(B[m1.5(B[0;1m[31m,[39m(B[m 1.5(B[0;1m[31m,[39m(B[m 1.5(B[0;1m[31m,[39m(B[m 1.5(B[0;1m[31m,[39m(B[m 1.5(B[0;1m[34m][31m,[24;5H[34m"min point" [31m:[39m(B[m (B[0;1m[34m[[39m(B[m-2.42E7(B[0;1m[31m,[39m(B[m 9.47E5(B[0;1m[31m,[39m(B[m 2.09E7(B[0;1m[31m,[39m(B[m 3.20E1(B[0;1m[31m,[39m(B[m -2.30E0(B[0;1m[34m][31m,[25;5H[34m"max point" [31m:[39m(B[m (B[0;1m[34m[[39m(B[m-1.96E2(B[0;1m[31m,[39m(B[m 2.35E6(B[0;1m[31m,[39m(B[m 1.89E8(B[0;1m[31m,[39m(B[m 8.00E1(B[0;1m[31m,[39m(B[m -2.50E-5(B[0;1m[34m][26d[31m}[3d[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[6;37H[?12l[?25h[?25l[?12l[?25h[?25l[1;165H(B[0;7mModified(B[m[6;35H(B[0;1m[31m,[39m(B[m[K[?12l[?25h[?25l(B[0;1m[31m,[39m(B[m[K[?12l[?25h[?25l(B[0;1m[31m,[39m(B[m[K[?12l[?25h[?25l[32m0(B[0;1m[31m,[39m(B[m[?12l[?25h[?25l[32m00(B[0;1m[31m,[39m(B[m[?12l[?25h[?25l[32m000(B[0;1m[31m,[39m(B[m[?12l[?25h[?25l[7;27H[?12l[?25h[?25l[6;36H[?12l[?25h[?25l[5;31H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[5;31H[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[43d[K[4;26H[?12l[?25h[?25l(B[0;1m[35m"[31m,[39m(B[m[K[?12l[?25h[?25l(B[0;1m[35m"[31m,[39m(B[m[K[?12l[?25h[?25l[1P[C[?12l[?25h[?25l(B[0;1m[35m"[31m,[39m(B[m[K[?12l[?25h[?25l(B[0;1m[35m"[31m,[39m(B[m[K[?12l[?25h[?25l(B[0;1m[35mN"[31m,[39m(B[m[?12l[?25h[?25l(B[0;1m[35mS"[31m,[39m(B[m[?12l[?25h[?25l(B[0;1m[35mG"[31m,[39m(B[m[?12l[?25h[?25l(B[0;1m[35mA"[31m,[39m(B[m[?12l[?25h[?25l(B[0;1m[35mI"[31m,[39m(B[m[?12l[?25h[?25l(B[0;1m[35mII"[31m,[39m(B[m[?12l[?25h[?25l(B[0;1m[35mIII"[31m,[39m(B[m[?12l[?25h[?25l[43d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                                                 [44;1H Y(B[m Yes[K[45d(B[0;7m N(B[m No  [45;17H(B[0;7m^C(B[m Cancel[K[43;63H[?12l[?25h[?25l[44d(B[0;7m^G(B[m Get Help[44;44H(B[0;7mM-D(B[m DOS Format[44;87H(B[0;7mM-A(B[m Append[44;130H(B[0;7mM-B(B[m Backup File[45d(B[0;7m^C(B[m Cancel[17G         [45;44H(B[0;7mM-M(B[m Mac Format[45;87H(B[0;7mM-P(B[m Prepend[45;130H(B[0;7m^T(B[m To Files[43d(B[0;7mFile Name to Write [DOS Format]: config.json                 (B[m[43;45H[?12l[?25h[?25l[K[1;173H[1;165H(B[0;7m        (B[m[43;79H(B[0;7m[ Wrote 24 lines ](B[m[J[45;174H[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;32m➜  [36mNSGAIII[00m [K[?1h=[?2004hnano config.json[16Dscreen -r       [9Dtail -f screenlog.0[19Dscreen -r          [10D[9Dnano config.json[16D                [16D~~/hhco4wtdop/root/PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe -n 10[?1l>[?2004l
+k~/hhco4wtdop/root/PostToolForECSympoCompe/ReleaseLinux/PostToolForECSympoCompe.exe\load configration file ...
+compute hypervolumes ...
+7th run is finished.
+11th run is finished.
+19th run is finished.
+3th run is finished.
+9th run is finished.
+13th run is finished.
+17th run is finished.
+5th run is finished.
+0th run is finished.
+15th run is finished.
+8th run is finished.
+12th run is finished.
+20th run is finished.
+10th run is finished.
+16th run is finished.
+18th run is finished.
+6th run is finished.
+14th run is finished.
+4th run is finished.
+1th run is finished.
+2th run is finished.
+compute hypervolume of population in each generations (only median run and best run) ...
+6th run is finished.
+0th run is finished.
+median hypervolume value: 5.07304 in 0th run
+best hypervolume value: 5.23483 in 6th run
+post-processing is completed! done ...
+[1m[7m%[27m[1m[0m                                                                                                                                                                              k..iment/NSGAIII\[0m[27m[24m[J[01;32m➜  [36mNSGAIII[00m [K[?1h=[?2004h
